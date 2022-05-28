@@ -4,7 +4,11 @@ import { RoombaContext } from "../contexts/RoombaContext";
 const RotateRightControl = () => {
   const { rotateRight } = useContext(RoombaContext);
 
-  return <button onClick={rotateRight}>Rotate to the right</button>;
+  return (
+    <button data-testid={"rotate-right-button"} onClick={rotateRight}>
+      Rotate to the right
+    </button>
+  );
 };
 
 export default RotateRightControl;
