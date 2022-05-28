@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Column /> SHOULD render 1`] = `
+<div>
+  <div
+    class="Column"
+  >
+    Content Test
+  </div>
+</div>
+`;

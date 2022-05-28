@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cell /> SHOULD render WHEN cell is populated 1`] = `
+<div>
+  <button
+    data-testid="direction-button"
+  >
+    Rotate
+  </button>
+  <div
+    class="Cell"
+  >
+    👉
+  </div>
+</div>
+`;
+
+exports[`<Cell /> SHOULD render WHEN cell is populated 2`] = `
+<div>
+  <button
+    data-testid="direction-button"
+  >
+    Rotate
+  </button>
+  <div
+    class="Cell"
+  >
+    👇
+  </div>
+</div>
+`;
+
+exports[`<Cell /> SHOULD render WHEN cell is populated 3`] = `
+<div>
+  <button
+    data-testid="direction-button"
+  >
+    Rotate
+  </button>
+  <div
+    class="Cell"
+  >
+    👈
+  </div>
+</div>
+`;
+
+exports[`<Cell /> SHOULD render WHEN cell is populated 4`] = `
+<div>
+  <button
+    data-testid="direction-button"
+  >
+    Rotate
+  </button>
+  <div
+    class="Cell"
+  >
+    👆
+  </div>
+</div>
+`;
+
+exports[`<Cell /> SHOULD render WHEN initial state AND cell is empty 1`] = `
+<div>
+  <button
+    data-testid="direction-button"
+  >
+    Rotate
+  </button>
+  <div
+    class="Cell"
+  />
+</div>
+`;
