@@ -3,7 +3,7 @@ import "../styles/Grid.css";
 import Column from "./Column";
 import Cell from "./Cell";
 
-type RoomProps = {
+export type RoomProps = {
   size: number;
 };
 

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cell /> SHOULD render WHEN size 2 1`] = `
+<div>
+  <div
+    class="Grid"
+  >
+    <div
+      class="Column"
+    >
+      <div
+        class="Cell"
+      >
+        👉
+      </div>
+      <div
+        class="Cell"
+      />
+    </div>
+    <div
+      class="Column"
+    >
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Cell /> SHOULD render WHEN size 3 1`] = `
+<div>
+  <div
+    class="Grid"
+  >
+    <div
+      class="Column"
+    >
+      <div
+        class="Cell"
+      >
+        👉
+      </div>
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+    </div>
+    <div
+      class="Column"
+    >
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+    </div>
+    <div
+      class="Column"
+    >
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+      <div
+        class="Cell"
+      />
+    </div>
+  </div>
+</div>
+`;
