@@ -12,26 +12,6 @@ export type Position = {
   size: number;
 };
 
-const parseDirection = (direction: Direction): string => {
-  switch (direction) {
-    case Direction.Right:
-      return "👉";
-    case Direction.Down:
-      return "👇";
-    case Direction.Left:
-      return "👈";
-    case Direction.Up:
-      return "👆";
-    default:
-      return "❓";
-  }
-};
-
-const rotate = (direction: Direction): Direction => {
-  const newDirecton = direction + 1;
-  return newDirecton <= Direction.Up ? newDirecton : Direction.Right;
-};
-
 const forwardDirections = [Direction.Right, Direction.Down];
 const horizontalDirections = [Direction.Right, Direction.Left];
 
@@ -56,6 +36,26 @@ const move = (position: Position): Position => {
   }
 
   return { ...position, direction: rotate(position.direction) };
+};
+
+const parseDirection = (direction: Direction): string => {
+  switch (direction) {
+    case Direction.Right:
+      return "👉";
+    case Direction.Down:
+      return "👇";
+    case Direction.Left:
+      return "👈";
+    case Direction.Up:
+      return "👆";
+    default:
+      return "❓";
+  }
+};
+
+const rotate = (direction: Direction): Direction => {
+  const newDirecton = direction + 1;
+  return newDirecton <= Direction.Up ? newDirecton : Direction.Right;
 };
 
 export { move, parseDirection, rotate };
