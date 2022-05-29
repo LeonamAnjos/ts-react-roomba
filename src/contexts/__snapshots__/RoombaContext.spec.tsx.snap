@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoombaContextProvier /> SHOULD render WHEN inicial context 1`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '3' | Direction: '1' | Emoji: '👉'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 1`] = `
+<div>
+  Row: '0' | Column: '1' | Size: '2' | Direction: '1' | Emoji: '👉'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 2`] = `
+<div>
+  Row: '0' | Column: '1' | Size: '2' | Direction: '2' | Emoji: '👇'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 3`] = `
+<div>
+  Row: '1' | Column: '1' | Size: '2' | Direction: '2' | Emoji: '👇'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 4`] = `
+<div>
+  Row: '1' | Column: '1' | Size: '2' | Direction: '3' | Emoji: '👈'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 5`] = `
+<div>
+  Row: '1' | Column: '0' | Size: '2' | Direction: '3' | Emoji: '👈'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 6`] = `
+<div>
+  Row: '1' | Column: '0' | Size: '2' | Direction: '4' | Emoji: '👆'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 7`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '2' | Direction: '4' | Emoji: '👆'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> moveForward() 8`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '2' | Direction: '1' | Emoji: '👉'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> rotateRight() 1`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '3' | Direction: '2' | Emoji: '👇'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> rotateRight() 2`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '3' | Direction: '3' | Emoji: '👈'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> rotateRight() 3`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '3' | Direction: '4' | Emoji: '👆'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
+
+exports[`<RoombaContextProvier /> rotateRight() 4`] = `
+<div>
+  Row: '0' | Column: '0' | Size: '3' | Direction: '1' | Emoji: '👉'
+  <button
+    data-testid="move-forward-button"
+  />
+  <button
+    data-testid="rotate-right-button"
+  />
+</div>
+`;
