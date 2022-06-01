@@ -8,15 +8,13 @@ export type RoomProps = {
 };
 
 const Room = ({ size }: RoomProps) => {
-  const columns = [];
-  for (let i = 0; i < size; i++) {
-    const cells = [];
-    for (let j = 0; j < size; j++) {
-      cells.push(<Cell key={j} column={i} row={j}></Cell>);
-    }
-
-    columns.push(<Column key={i}>{cells}</Column>);
-  }
+  const columns = Array.from({ length: size }, (_, i: number) => (
+    <Column key={i}>
+      {Array.from({ length: size }, (_, j: number) => (
+        <Cell key={j} column={i} row={j}></Cell>
+      ))}
+    </Column>
+  ));
 
   return <div className="Grid">{columns}</div>;
 };
